@@ -56,3 +56,9 @@ data/models/vietnamese/phobert_model/
 *.pkl
 *.pth
 *.h5
+
+data/models/vietnamese/bert_model/
+data/models/vietnamese/bert_tokenizer/
+*.zip
+*.safetensors
+*.keras

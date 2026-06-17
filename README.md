@@ -11,4 +11,5 @@ This repository contains the source code for the project.
 - `test_integration.py`: Integration tests
 - `templates/`: HTML templates
 - `static/`: Static CSS/JS assets
-- `notebooks/`: Jupyter notebooks for data analysis and modeling
+- `notebooks_new/`: Jupyter notebooks for data analysis and modeling
+- `data/`: Data directory
