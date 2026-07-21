@@ -1,64 +1,24 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-log.txt
-pip-delete-this-directory.txt
-htmlcov/
-.tox/
-.coverage
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# Ignore everything by default
+/*
 
-# Environment variables & virtual env
-.env
-.venv
-venv/
-ENV/
+# Unignore specific root files
+!/.gitignore
+!/README.md
+!/requirements.txt
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Unignore tracked directories
+!/train_data/
+!/web/
 
-# Datasets (Heavy raw files)
-data/datasets/
-preprocessed_welfake.csv
-
-# Application files (Dynamic)
-data/history.json
-data/uploads/*
-!data/uploads/.gitkeep
-
-# Model weights and models
-data/models/english/bert_model/
-data/models/english/bert_tokenizer/
-data/models/vietnamese/phobert_model/
-*.pkl
-*.pth
-*.h5
-
-data/models/vietnamese/bert_model/
-data/models/vietnamese/bert_tokenizer/
+# Ignore large files (>100MB) that fail on GitHub push
 *.zip
+*.csv
 *.safetensors
-*.keras
+*.bin
+*.pt
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+.vscode/
+.sixth/
